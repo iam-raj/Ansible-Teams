@@ -1,0 +1,8 @@
+---
+
+- name: Teams Notification
+  office_365_connector_card:
+    webhook: "{{ webhook_url }}"
+    title: "{{ title_name }}"
+    text: "{{ webhook_message }}"
+    color: E81123
